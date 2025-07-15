@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: proto-api
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/proto-api
+server:
+  servlet:
+    context-path: /api
+  port: 8080
+api:
+  version: 1.0
+
